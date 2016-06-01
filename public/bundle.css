@@ -1,0 +1,33 @@
+body {
+  -webkit-transition-property: background;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-timing-function: ease;
+}
+
+body.index {
+  background-color: #69D2E7;
+}
+
+body.enabled {
+  background-color: #A7DBDB;
+}
+
+body.disabled {
+  background-color: #E0E4CC;
+}
+
+a {
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 2s;
+  -webkit-transition-timing-function: ease;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.active {
+  color: #FA6900;
+}
