@@ -3,8 +3,8 @@ const config = {
       js: './src/index',
   },
   output: {
-    path: './dist',
-    filename: 'turbo-dom.js',
+    path: './public',
+    filename: 'bundle.js',
   },
   module: {
     loaders: [
@@ -18,7 +18,7 @@ const config = {
         }
       },
     ]
-  }
+  },
 };
 
 module.exports = [config]

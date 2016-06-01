@@ -1,7 +1,7 @@
 body {
-  -webkit-transition-property: background;
-  -webkit-transition-duration: 1s;
-  -webkit-transition-timing-function: ease;
+  -webkit-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color 1s;
 }
 
 body.index {
@@ -17,9 +17,9 @@ body.disabled {
 }
 
 a {
-  -webkit-transition-property: color;
-  -webkit-transition-duration: 2s;
-  -webkit-transition-timing-function: ease;
+  -webkit-transition: color 2s;
+  -o-transition: color 2s;
+  transition: color 2s;
   color: #000;
   text-decoration: none;
 }
